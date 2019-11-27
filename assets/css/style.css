@@ -23,6 +23,7 @@ header, main, footer {
 
 .container {
     width: 1200px;
+    padding: 3em 0 3em 0;
 }
 
 .temoignages_bg {
@@ -34,3 +35,21 @@ header, main, footer {
     color: white;
 }
 
+.temoignages_text {
+    color: #6b6b6b;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+    border-width: 3px;
+    border-style: solid;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,050104+100 */
+    border-bottom: #ffffff; /* Old browsers */
+    border-bottom: -moz-linear-gradient(left,  #ffffff 0%, #050104 100%); /* FF3.6-15 */
+    border-bottom: -webkit-linear-gradient(left,  #ffffff 0%,#050104 100%); /* Chrome10-25,Safari5.1-6 */
+    border-bottom: linear-gradient(to right,  #ffffff 0%,#050104 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#050104',GradientType=1 ); /* IE6-9 */
+
+}
