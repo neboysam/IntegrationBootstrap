@@ -17,8 +17,12 @@
 /************************** FONTS ******************************/
 
 header, main, footer {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
 }
 
 .temoignages_bg {
@@ -29,3 +33,4 @@ header, main, footer {
     background-repeat: no-repeat;
     color: white;
 }
+
