@@ -6,14 +6,17 @@
 
 /************************** FONTS ******************************/
 @font-face {
-    font-family: "regular";
-    src: url('../fonts/OpenSans-Regular.ttf');
+   font-family: "regular";
+   src: url('../fonts/OpenSans-Regular.ttf');
 }
 
 @font-face {
-    font-family: "bold";
-    src: url('../fonts/OpenSans-Bold.ttf');
+   font-family: "bold";
+   src: url('../fonts/OpenSans-Bold.ttf');
 }
 /************************** FONTS ******************************/
 
-
+/**** ENSEIGNEMENT ****/
+#enseignement{
+	background: url('../images/bg-enseignement.png');
+}
