@@ -1,0 +1,19 @@
+/************************** COLORS ******************************/
+/* #d31f44 - red: menu hover, links, underlines */
+/* #1d0e04 - black: menu background  */
+/* #3e3e3e - grey: footer  */
+/************************** COLORS ******************************/
+
+/************************** FONTS ******************************/
+@font-face {
+    font-family: "regular";
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "bold";
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+/************************** FONTS ******************************/
+
+
