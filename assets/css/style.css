@@ -133,11 +133,15 @@ header, main, footer {
     margin: 0 auto;
 }
 
-.form-control {
+.border_bottom {
     background: transparent;
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
+}
+
+.form-control {
+    background: transparent;
 }
 
 .padding-border .form-control {
