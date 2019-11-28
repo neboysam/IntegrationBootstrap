@@ -18,124 +18,12 @@
 }
 /************************** FONTS ******************************/
 
-<<<<<<< HEAD
-header, main, footer {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.container {
-    width: 1200px;
-    padding: 3em 0 3em 0;
-}
-
-.temoignages_bg {
-    width: 100%;
-    height: 450px;
-    background: url('../images/temoignage-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    text-align: justify;
-}
-
-.contact_bg {
-    height: 710px;
-    background: #9d0121; /* Old browsers */
-    background: -moz-linear-gradient(top, #9d0121 0%, #d31f44 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #9d0121 0%,#d31f44 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #9d0121 0%,#d31f44 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d0121', endColorstr='#d31f44',GradientType=0 ); /* IE6-9 */
-
-}
-
-.temoignages_text {
-    color: #c0c0c0;
-}
-
-.title {
-    color: white;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 22px;
-    padding-bottom: 15px;
-}
-
-.bottom_line_temoignages {
-    width: 10%;
-    border-bottom: 3px solid white;
-    border-left-width: 0;
-    border-right-width: 0;
-    border-image: linear-gradient(to right, white, black) 1 stretch;
-}
-
-.bottom_line_contact {
-    width: 10%;
-    border-bottom: 3px solid white;
-    border-left-width: 0;
-    border-right-width: 0;
-    border-image: linear-gradient(to right, white, #a20324) 1 stretch;
-}
-
-.border-white {
-    padding: 0.5em;
-}
-
-.container a {
-    text-decoration: none;
-    color: white;
-}
-
-form {
-    margin-top: 40px;
-}
-
-.contact_text {
-    color: white;
-}
-
-.form-control::-webkit-input-placeholder {
-    color: white;
-}
-
-.form-group label {
-    color: #fff !important;
-    padding-left: 0;
-}
-
-.center {
-    margin: 0 auto;
-}
-
-.form-control {
-    background: transparent;
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
-}
-
-.padding-border .form-control {
-    padding-left: 0px !important;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-}
-
-.button_contact {
-    padding: 0.5em 3em;
-    border: 1px solid transparent;
-    background-color: white;
-    color: #d31f44;
-}
-
-.footer_id {
-    background-color: #3e3e3e;
-    color: white;
-}
-=======
 /************************** GLOBALS ******************************/
+header, main, footer {
+   width: 100%;
+   margin: 0 auto;
+}
+
 .container{
    width: 1200px;
    margin: 0 auto;
@@ -152,11 +40,134 @@ h2{
    font-size: 1.875rem;
 }
 
+.bordure-red{
+   width: 10%;
+   border-bottom: 3px solid white;
+   border-image: linear-gradient(90deg, rgba(162,3,36,1) 0%, rgba(255,255,255,0) 100%) 1;
+}
+
+.bordure-white{
+   width: 10%;
+   border-bottom: 3px solid white;
+   border-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%) 1;
+}
+
 p{
    margin: 0;
    padding: 0;
 }
 /************************** GLOBALS ******************************/
+
+.container {
+   width: 1200px;
+   padding: 3em 0 3em 0;
+}
+
+.temoignages_bg {
+   width: 100%;
+   height: 450px;
+   background: url('../images/temoignage-bg.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: white;
+   text-align: justify;
+}
+
+.contact_bg {
+   height: 710px;
+   background: #9d0121; /* Old browsers */
+   background: -moz-linear-gradient(top, #9d0121 0%, #d31f44 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top, #9d0121 0%,#d31f44 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom, #9d0121 0%,#d31f44 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d0121', endColorstr='#d31f44',GradientType=0 ); /* IE6-9 */
+
+}
+
+.temoignages_text {
+   color: #c0c0c0;
+}
+
+.title {
+   color: white;
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 22px;
+   padding-bottom: 15px;
+}
+
+.bottom_line_temoignages {
+   width: 10%;
+   border-bottom: 3px solid white;
+   border-left-width: 0;
+   border-right-width: 0;
+   border-image: linear-gradient(to right, white, black) 1 stretch;
+}
+
+.bottom_line_contact {
+   width: 10%;
+   border-bottom: 3px solid white;
+   border-left-width: 0;
+   border-right-width: 0;
+   border-image: linear-gradient(to right, white, #a20324) 1 stretch;
+}
+
+.border-white {
+   padding: 0.5em;
+}
+
+.container a {
+   text-decoration: none;
+   color: white;
+}
+
+form {
+   margin-top: 40px;
+}
+
+.contact_text {
+   color: white;
+}
+
+.form-control::-webkit-input-placeholder {
+   color: white;
+}
+
+.form-group label {
+   color: #fff !important;
+   padding-left: 0;
+}
+
+.center {
+   margin: 0 auto;
+}
+
+.form-control {
+   background: transparent;
+   border-top: transparent;
+   border-left: transparent;
+   border-right: transparent;
+}
+
+.padding-border .form-control {
+   padding-left: 0px !important;
+   border-radius: 0;
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   -ms-border-radius: 0;
+   -o-border-radius: 0;
+}
+
+.button_contact {
+   padding: 0.5em 3em;
+   border: 1px solid transparent;
+   background-color: white;
+   color: #d31f44;
+}
+
+.footer_id {
+   background-color: #3e3e3e;
+   color: white;
+}
 
 /**** FORMATION ****/
 #formation{
@@ -186,7 +197,7 @@ p{
 
 /**** ENSEIGNEMENT ****/
 #enseignement{
-	background: url('../images/bg-enseignement.png');
+   background: url('../images/bg-enseignement.png');
    font-size: 0.875rem;
 }
 
@@ -251,7 +262,7 @@ p{
    opacity: 0.5;
 }
 /*.wrap-centre .item-img img:hover .item-text{
-   visibility: visible
+visibility: visible
 }*/
 
 .wrap-centre .item-img{
@@ -266,4 +277,3 @@ p{
    transform: translate(-50%, -50%);
 }
 /********/
->>>>>>> formation
