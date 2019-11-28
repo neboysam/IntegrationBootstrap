@@ -16,7 +16,117 @@
 }
 /************************** FONTS ******************************/
 
+/************************** GLOBALS ******************************/
+.container{
+   width: 1200px;
+   margin: 0 auto;
+   padding: 0;
+}
+
+.padding-section{
+   padding: 70px 0;
+}
+
+h2{
+   margin: 0;
+   padding: 70px 0 30px 0;
+   font-size: 1.875rem;
+}
+
+p{
+   margin: 0;
+   padding: 0;
+}
+/************************** GLOBALS ******************************/
+
+/**** FORMATION ****/
+#formation{
+   font-size: 0.875rem;
+}
+
+.wrap-list-gen p{
+   margin-bottom: 30px;
+}
+
+.wrap-list-gen .list-formation{
+   padding: 0 15px;
+}
+
+.wrap-list-gen .list-formation li{
+   list-style: none;
+}
+.wrap-list-gen .list-formation li::before{
+   color: #d31f44;
+   content: "\2022";
+   font-weight: bold;
+   display: inline-block;
+   width: 1em;
+   margin-left: -1em;
+}
+/********/
+
 /**** ENSEIGNEMENT ****/
 #enseignement{
 	background: url('../images/bg-enseignement.png');
+   font-size: 0.875rem;
 }
+
+.wrap-enseignement div{
+   margin: 0 15px;
+}
+
+.wrap-enseignement div img{
+   margin-bottom: 40px;
+   font-family: "bold";
+}
+
+.wrap-enseignement div img,.p-metier{
+   padding: 0 35px;
+}
+
+.wrap-enseignement div img,.p-metier::first-line{
+   padding: 0 35px;
+   font-family: "bold";
+}
+/********/
+
+/**** METIER ****/
+#metier{
+   background: #3e3e3e;
+   font-size: 0.875rem;
+}
+
+.wrap-metier div p{
+   padding: 0px 0 40px 0;
+}
+
+.wrap-metier .button-metier{
+   padding: 15px 55px;
+   text-decoration: none;
+   border: solid 2px #ffffff;
+}
+
+.wrap-metier .button-metier:hover{
+   border: solid 2px #d31f44;
+}
+
+.item-video iframe{
+   width: 600px;
+   height: 330px;
+   margin: 0 0 0 30px;
+}
+/********/
+
+/**** CENTRE ****/
+#centre{
+   font-size: 1.5625rem;
+}
+
+.wrap-img{
+   margin: 70px 0;
+}
+
+.item-img{
+   padding-bottom: 15px;
+}
+/********/
