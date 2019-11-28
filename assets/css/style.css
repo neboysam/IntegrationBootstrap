@@ -8,16 +8,17 @@
 
 /************************** FONTS ******************************/
 @font-face {
-    font-family: "regular";
-    src: url('../fonts/OpenSans-Regular.ttf');
+   font-family: "regular";
+   src: url('../fonts/OpenSans-Regular.ttf');
 }
 
 @font-face {
-    font-family: "bold";
-    src: url('../fonts/OpenSans-Bold.ttf');
+   font-family: "bold";
+   src: url('../fonts/OpenSans-Bold.ttf');
 }
 /************************** FONTS ******************************/
 
+<<<<<<< HEAD
 header, main, footer {
     width: 100%;
     margin: 0 auto;
@@ -133,3 +134,136 @@ form {
     background-color: #3e3e3e;
     color: white;
 }
+=======
+/************************** GLOBALS ******************************/
+.container{
+   width: 1200px;
+   margin: 0 auto;
+   padding: 0;
+}
+
+.padding-section{
+   padding: 70px 0;
+}
+
+h2{
+   margin: 0;
+   padding: 70px 0 30px 0;
+   font-size: 1.875rem;
+}
+
+p{
+   margin: 0;
+   padding: 0;
+}
+/************************** GLOBALS ******************************/
+
+/**** FORMATION ****/
+#formation{
+   font-size: 0.875rem;
+}
+
+.wrap-list-gen p{
+   margin-bottom: 30px;
+}
+
+.wrap-list-gen .list-formation{
+   padding: 0 15px;
+}
+
+.wrap-list-gen .list-formation li{
+   list-style: none;
+}
+.wrap-list-gen .list-formation li::before{
+   color: #d31f44;
+   content: "\2022";
+   font-weight: bold;
+   display: inline-block;
+   width: 1em;
+   margin-left: -1em;
+}
+/********/
+
+/**** ENSEIGNEMENT ****/
+#enseignement{
+	background: url('../images/bg-enseignement.png');
+   font-size: 0.875rem;
+}
+
+.wrap-enseignement div{
+   margin: 0 15px;
+}
+
+.wrap-enseignement div img{
+   margin-bottom: 40px;
+   font-family: "bold";
+}
+
+.wrap-enseignement div img,.p-metier{
+   padding: 0 35px;
+}
+
+.wrap-enseignement div img,.p-metier::first-line{
+   padding: 0 35px;
+   font-family: "bold";
+}
+/********/
+
+/**** METIER ****/
+#metier{
+   background: #3e3e3e;
+   font-size: 0.875rem;
+}
+
+.wrap-metier div p{
+   padding: 0px 0 40px 0;
+}
+
+.wrap-metier .button-metier{
+   padding: 15px 55px;
+   text-decoration: none;
+   border: solid 2px #ffffff;
+}
+
+.wrap-metier .button-metier:hover{
+   border: solid 2px #d31f44;
+}
+
+.item-video iframe{
+   width: 600px;
+   height: 330px;
+   margin: 0 0 0 30px;
+}
+/********/
+
+/**** CENTRE ****/
+#centre{
+   font-size: 1.5625rem;
+}
+
+.wrap-centre .item-img{
+   background: rgb(211, 31, 68);
+   cursor: pointer;
+}
+
+.wrap-centre .item-img img:hover{
+   cursor: pointer;
+   opacity: 0.5;
+}
+/*.wrap-centre .item-img img:hover .item-text{
+   visibility: visible
+}*/
+
+.wrap-centre .item-img{
+   margin-bottom: 15px;
+   position: relative;
+}
+
+.wrap-centre .item-img .item-text{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+/********/
+>>>>>>> formation
