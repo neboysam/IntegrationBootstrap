@@ -61,15 +61,15 @@ header, main, footer {
 }
 
 .bottom_line_temoignages {
-    width: 10%;
+    width: 13%;
     border-bottom: 3px solid white;
     border-left-width: 0;
     border-right-width: 0;
-    border-image: linear-gradient(to right, white, black) 1 stretch;
+    border-image: linear-gradient(to right, white, #0e0e0e) 1 stretch;
 }
 
 .bottom_line_contact {
-    width: 10%;
+    width: 13%;
     border-bottom: 3px solid white;
     border-left-width: 0;
     border-right-width: 0;
