@@ -60,6 +60,14 @@ header, main, footer {
     padding-bottom: 15px;
 }
 
+.title_centre {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
 .bottom_line_temoignages {
     width: 10%;
     border-bottom: 3px solid white;
@@ -76,6 +84,17 @@ header, main, footer {
     border-image: linear-gradient(to right, white, #a20324) 1 stretch;
 }
 
+.bottom_line_centre {
+    height: 3px;
+    width: 10%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d32045+0,ffffff+100 */
+    background: #d32045; /* Old browsers */
+    background: -moz-linear-gradient(left,  #d32045 0%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #d32045 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #d32045 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d32045', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
 .border-white {
     padding: 0.5em;
 }
@@ -83,10 +102,6 @@ header, main, footer {
 .container a {
     text-decoration: none;
     color: white;
-}
-
-form {
-    margin-top: 40px;
 }
 
 .contact_text {
