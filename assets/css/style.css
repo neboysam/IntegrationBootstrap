@@ -122,11 +122,17 @@ p{
    font-size: 1.5625rem;
 }
 
-.wrap-img{
-   margin: 70px 0;
+.wrap-centre .item-img{
+   background: rgb(211, 31, 68);
+   cursor: pointer;
+}
+
+.wrap-centre .item-img img:hover{
+   cursor: pointer;
+   opacity: 0.5;
 }
 
 .item-img{
-   padding-bottom: 15px;
+   margin-bottom: 15px;
 }
 /********/
