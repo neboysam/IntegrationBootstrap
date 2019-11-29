@@ -65,7 +65,6 @@ p{
 
 .temoignages_bg {
    width: 100%;
-   height: 450px;
    background: url('../images/temoignage-bg.png');
    background-size: cover;
    background-repeat: no-repeat;
@@ -74,7 +73,6 @@ p{
 }
 
 .contact_bg {
-   height: 710px;
    background: #9d0121; /* Old browsers */
    background: -moz-linear-gradient(top, #9d0121 0%, #d31f44 100%); /* FF3.6-15 */
    background: -webkit-linear-gradient(top, #9d0121 0%,#d31f44 100%); /* Chrome10-25,Safari5.1-6 */
@@ -139,20 +137,26 @@ form {
    margin: 0 auto;
 }
 
-.form-control {
-   background: transparent;
-   border-top: transparent;
-   border-left: transparent;
-   border-right: transparent;
-}
-
-.padding-border .form-control {
-   padding-left: 0px !important;
-   border-radius: 0;
+.border-bottom {
+    background: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding-left: 0px !important;
+    border-radius: 0;
    -webkit-border-radius: 0;
    -moz-border-radius: 0;
    -ms-border-radius: 0;
    -o-border-radius: 0;
+}
+
+.form-control {
+    background: transparent;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
 }
 
 .button_contact {
