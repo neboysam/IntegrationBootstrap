@@ -297,6 +297,11 @@ header {
 	padding: 0;
 }
 
+.container-header {
+   width: 1200px;
+   margin: auto;
+}
+
 .navbar-nav {
 	line-height: 85px;
 }
