@@ -106,8 +106,6 @@ p{
 .bottom_line_contact {
    width: 10%;
    border-bottom: 3px solid white;
-   border-left-width: 0;
-   border-right-width: 0;
    border-image: linear-gradient(to right, white, #a20324) 1 stretch;
 }
 
