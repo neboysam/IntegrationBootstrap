@@ -17,3 +17,88 @@
 /************************** FONTS ******************************/
 
 
+/**** HEADER ****/
+:root {
+	--bggradient: linear-gradient(to right, #d11e43, #9c0021);
+}
+
+header {
+	border: 2px solid blue;
+	background-image: url(../images/bg-header.png);
+	width: 100%;
+	height: 900px;
+}
+
+.container {
+	border: 2px solid blue;
+}
+
+
+.navbar {
+	border-bottom: 1px solid white;
+	width: cover;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 0;
+	height: 90px;
+
+}
+
+
+header .nav-item:last-child {
+	padding-right: 10.5em;
+}
+
+header .nav-item {
+	padding: 0;
+}
+
+header .navbar-brand {
+	padding-left: 8rem;
+	padding: 0 0 0 128px;
+}
+
+header .nav-link:hover {
+	color: white;
+	background: #d31f44;
+	border-radius: 2px;
+
+}
+
+.nav-link {
+	color: white;
+	padding: 0;
+	height: 90px;
+}
+
+.bottom-header {
+	padding: 12% 0;
+	text-align: center;
+}
+
+.title-header {
+	color: white;
+	padding: 10px;
+	width: 100%;
+	margin: o auto 2% auto;
+}
+
+.title-header2 {
+	color: white;
+	padding: 10px;
+	width: 60%;
+	margin: 0 auto;
+	background-color: rgb(255, 255, 255, 0.2);
+	font-size: 28px;
+}
+
+.bottom-header .btn {
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 70px;
+	border-radius: 2px;
+	color: white;
+	background: #d11e43;
+	background: var(--bggradient);
+	border: var(--bggradient);
+}
