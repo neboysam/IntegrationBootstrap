@@ -362,3 +362,14 @@ header .nav-link:hover {
 	background: var(--bggradient);
 	border: var(--bggradient);
 }
+/**** TITLE PRO ****/
+.titre_pro {
+	background-image: url(../images/projet-bg1.png);
+	width: 100%;
+	height: 295px;
+}
+
+.title-pro {
+	color: white;
+	font-size: 30px;
+}
