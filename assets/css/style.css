@@ -279,6 +279,7 @@ visibility: visible
    transform: translate(-50%, -50%);
 }
 /********/
+
 /**** HEADER ****/
 :root {
 	--bggradient: linear-gradient(to right, #d11e43, #9c0021);
@@ -313,11 +314,6 @@ header .nav-item {
 header .nav-item {
 	padding: 0;
 }
-
-/*header .navbar-brand {
-	padding-left: 8rem;
-	padding: 0 0 0 128px;
-}*/
 
 header .nav-link:hover {
 	color: white;
@@ -362,6 +358,8 @@ header .nav-link:hover {
 	background: var(--bggradient);
 	border: var(--bggradient);
 }
+
+
 /**** TITLE PRO ****/
 .titre_pro {
 	background-image: url(../images/projet-bg1.png);
@@ -372,4 +370,32 @@ header .nav-link:hover {
 .title-pro {
 	color: white;
 	font-size: 30px;
+}
+
+
+/**** PROJECT ****/
+.ul-project {
+   list-style: none;
+   padding-left: 5px;
+   margin-top: 40px;
+   letter-spacing: 0px;
+   font-size: 14px;
+   line-height: 17px;
+}
+
+.ul-project li::before {
+   color: #d31f44;
+   content: "\2022";
+   font-weight: bold;
+   display: inline-block;
+   width: 1em;
+}
+
+.p-project {
+   margin-top: 30px;
+}
+
+.all-project {
+   margin-left: 45px;
+   margin-bottom: 70px;
 }
